@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: #2d3134;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+.navbar img {
+  width: 150px;
+  background-image: none;
+}/*# sourceMappingURL=Navbar.css.map */

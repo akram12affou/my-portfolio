@@ -16,6 +16,8 @@
     }
     .linkedin{
         background: #0570b0;
+        font-size: larger;
+        font-weight: 800;
         
     }
     .linkedin:hover{
@@ -23,7 +25,9 @@
         background: #0570b0;
     }
     .github{
-        background: #3e3b3e
+        background: #3e3b3e;
+        font-size: larger;
+        font-weight: 800;
     }
     .github:hover{
         transform: translateX(0px);
@@ -31,6 +35,8 @@
     }
     .email{
         background: #69ada5;
+        font-size: larger;
+        font-weight: 800;
     }
     .email:hover{
         transform: translateX(0px);
@@ -38,6 +44,8 @@
     }
     .resume{
         background: #59616a;
+        font-size: larger;
+        font-weight: 800;
     }
     .resume:hover{
         transform: translateX(0px);

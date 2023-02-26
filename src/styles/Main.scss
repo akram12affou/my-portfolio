@@ -2,14 +2,16 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
 .main{
     
-    min-height:50vh;
+    min-height:calc(100vh - 125px);
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #2d3134;
     color:white;
+    justify-content: center;
    
     h2{
         font-size: calc(1rem + 3vw);
@@ -19,7 +21,8 @@
         font-size: calc(0.3rem + 1.25vw);
     }
     button{
-        margin-top:100px ;
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top:7vh;
         background: #2d3134;
         color: white;
         border: white 1px solid;

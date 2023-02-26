@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 .Footer{
     display: flex;
-    flex-direction: column;
-    // justify-content: center;
+    height: 50px;
+    justify-content: space-evenly;
     background: #1b1d1e;
     align-items: center;
-    color:white
+    color:white;
+    
+}
+div{
+    font-size: calc(0.4rem + 0.5vw);
+    
+}
+span{
+    font-family: 'Inconsolata', monospace;
+    color:#585a5c;
 }

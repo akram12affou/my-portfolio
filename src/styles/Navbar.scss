@@ -7,9 +7,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:100px;
+    height:75px;
     img{
-        width:150px;
+        margin-top:3vh;
+        margin-left: 3vh;
+        width:calc(50px + 5vw);
         background-image: none;
+    }
+    .humburger{
+        margin-right: 5vh;
     }
 }

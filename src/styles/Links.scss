@@ -1,0 +1,46 @@
+.links{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top:40vh;
+    a{
+        display: flex;
+        align-items: center;
+        color:white;
+        width: 100px;
+        justify-content: space-between;
+        text-decoration: none;
+        padding: 0.5rem 0.4rem;
+        transform: translateX(-78px);
+        transition: all 0.3s ease-out;
+    }
+    .linkedin{
+        background: #0570b0;
+        
+    }
+    .linkedin:hover{
+        transform: translateX(0px);
+        background: #0570b0;
+    }
+    .github{
+        background: #3e3b3e
+    }
+    .github:hover{
+        transform: translateX(0px);
+        background:  #3e3b3e
+    }
+    .email{
+        background: #69ada5;
+    }
+    .email:hover{
+        transform: translateX(0px);
+        background: #69ada5;
+    }
+    .resume{
+        background: #59616a;
+    }
+    .resume:hover{
+        transform: translateX(0px);
+        background: #59616a;
+    }
+}

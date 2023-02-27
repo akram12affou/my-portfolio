@@ -7,9 +7,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Links() {
   return (
     <div className="links">
-      <a class='linkedin' href="">linkedin <LinkedInIcon/></a>
-      <a class='github' href="">github <GitHubIcon/></a>
-      <a class='email' href="">email <EmailIcon/></a>
+      <a class='linkedin' target="_blank" href="https://www.linkedin.com/in/akram-affou-872604221/">linkedin <LinkedInIcon/></a>
+      <a class='github' target="_blank" href="https://github.com/akram12affou">github <GitHubIcon/></a>
+      <a class='email'  >email <EmailIcon/></a>
       <a class='resume' href="">resume <FilePresentIcon/></a>
     </div>
   );

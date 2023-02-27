@@ -24,8 +24,8 @@ body{
         cursor: pointer;
         display: flex;
         width: 30px;
-        height: 5px;
-        background: rgb(174, 212, 209);
+        height: 3px;
+        background: white;
         border-radius: 5px;
         margin-right:30px ;
         border: none;
@@ -34,8 +34,8 @@ body{
             content:' ';
             width: 30px;
             position:absolute;
-            height: 5px;
-            background: rgb(174, 212, 209);
+            height: 3px;
+            background: white;
             transform: translateY(10px);
             border-radius: 5px;
             transition: all .3s ease;
@@ -45,9 +45,9 @@ body{
             content:' ';
             width: 30px;
             position:absolute;
-            height: 5px;
+            height: 3px;
             border-radius: 5px;
-            background: rgb(174, 212, 209);
+            background: white;
             transform: translateY(-10px);
             transition: all .3s ease;
             // transform: rotate(45deg);
@@ -57,8 +57,8 @@ body{
     .links-hum{
         transition: all .3s ease;
       transform: translateX(45vw);
-       background: #22262a;
-       border-radius: 5px;
+       background: #1b1d1e;
+       border-radius: 3px;
        position: absolute;
        display: flex;
        justify-content: space-evenly;
@@ -71,12 +71,13 @@ body{
        right:3px;
        button{
         cursor: pointer;
-        background: #22262a;
-        color: white;
+        background:#1b1d1e ;
+        color:#6f7378;
         border: none;
         transition: all .3s ease;
        }
        button:hover{
+        color:white;
         letter-spacing: 1px;
        }
     }

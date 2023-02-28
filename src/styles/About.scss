@@ -1,0 +1,20 @@
+.about{
+ background: rgb(45 49 52);
+ color: white;
+ height: calc(100vh -  125px);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: 0 auto;
+ width: 70vw;
+ gap:5px;
+ line-height :4vh;
+ a{
+    color: aqua;
+}
+
+}
+.about-container{
+    background: rgb(45 49 52);
+ 
+}

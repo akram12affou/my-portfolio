@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Contact.scss";
+import Links from  "./Links"
 function Contact() {
   return (
     <>
@@ -7,20 +8,24 @@ function Contact() {
         <div> <h2>SEND ME AN EMAIL</h2></div>
        
         <div className="grid-flex">
-          <div className="grid">
+          <form action="mailto:affouakram@example.com" method="post" enctype="text/plain" className="grid">
             <div className="inputs">
-              <div>Name <br /><input type="text" /></div>
-            <div>E-mail <br /><input type="email" /></div> 
+              <div>Name <br /><input type="text" name="name" /></div>
+            <div>E-mail <br /><input type="email" name="mail" /></div> 
             </div>
             <div className="textarea">
               <p>Message </p>
-              <textarea></textarea>
+              <input type="text" name="comment"></input>
             </div>
-          </div>
+          </form>
         </div>
-        <div><button>Send email</button></div>
+        <div>
+          <button> <input type="submit" value="Send email"></input>
+          </button>
+          </div>
         
       </div>
+      <Links/>
     </>
   );
 }

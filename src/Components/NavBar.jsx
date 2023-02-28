@@ -17,7 +17,7 @@ function NavBar() {
   console.log(isOpen);
   return (
     <div className="navbar">
-      <img src={logo} alt="my logo" />
+      <Link to='/'><img src={logo} alt="my logo" /></Link>
       <div onClick={() => setIsOpen(!isOpen)} className="cursor-menu">
         <button className="hum"></button>
       </div>
@@ -26,9 +26,11 @@ function NavBar() {
         className="links-hum"
         style={{ transform: isOpen && "translateX(0)" }}
       >
+        <Link to="/about">
         <a href="">
-          <button>About me</button>
+          <button>About</button>
         </a>
+        </Link>
         <Link to="/projects">
           <a href="">
             <button>Projects</button>

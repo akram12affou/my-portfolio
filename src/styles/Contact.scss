@@ -52,7 +52,7 @@ textarea{
   max-height: 350px;
 }
 
-.grid-flex{
+.grid-flex  {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ textarea{
 @media only screen and (max-width: 768px) {
   .grid{
     grid-template-columns:100%;
-    grid-template-rows: 30vh 30vh;
+    grid-template-rows:25vh 30vh;
     gap:0;
   }
   .inputs{
@@ -75,7 +75,8 @@ textarea{
     }
   }
   .textarea{
-    margin:0 auto
+    margin:0 auto;
+    
   }
   .grid-flex{
     min-height:calc(100vh - 250px);
@@ -84,5 +85,6 @@ textarea{
     margin-bottom: 60px;
     max-width: 80vw;
     max-height: 200px;
+    width: 250px;
   }
 }

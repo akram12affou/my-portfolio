@@ -2,14 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     background: #2d3134;
     height: 80vh;
     color:white;
     min-height:calc(100vh - 125px);
     span{
-        color:#6f7378
+        color:#6f7378;
+        
     }
     h2{
         text-transform: uppercase;
+        
     }
 }

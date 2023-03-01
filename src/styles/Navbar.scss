@@ -8,17 +8,18 @@ body{
 .navbar{
     background: #2d3134 ;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: space-between;
+    justify-content: center;
     height:75px;
     img{
-        margin-top:3vh;
+        // margin-top:3vh;
         margin-left: 3vh;
         width:calc(50px + 5vw);
         background-image: none;
     }
     .hum{
         margin-right: 5vh;
+        margin-bottom: 35px;
     }
     .hum{
         cursor: pointer;
@@ -55,6 +56,7 @@ body{
         
     }
     .links-hum{
+        z-index: 100;
         transition: all .3s ease;
       transform: translateX(45vw);
        background: #1b1d1e;

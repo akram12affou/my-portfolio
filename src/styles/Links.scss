@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         color:white;
-        width: 100px;
+        width: 110px;
         justify-content: space-between;
         text-decoration: none;
         padding: 0.5rem 0.4rem;
@@ -19,11 +19,11 @@
         font-size: 1rem;
         font-weight: 800;
         cursor: pointer;
-        
     }
     .linkedin:hover{
         transform: translateX(0px);
         background: #0570b0;
+        color:white;
     }
     .github{
         background: #3e3b3e;
@@ -32,7 +32,8 @@
     }
     .github:hover{
         transform: translateX(0px);
-        background:  #3e3b3e
+        background:  #3e3b3e;
+        color:white;
     }
     .email{
         background: #69ada5;
@@ -43,6 +44,7 @@
     .email:hover{
         transform: translateX(0px);
         background: #69ada5;
+        color:white;
     }
     .resume{
         background: #59616a;
@@ -52,5 +54,6 @@
     .resume:hover{
         transform: translateX(0px);
         background: #59616a;
+        color:white;
     }
 }

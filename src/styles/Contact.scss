@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .contact{
  display: flex;
  flex-direction: column;
@@ -37,7 +41,7 @@ button:hover{
   input{
     width: 30vw;
     border-radius: 3px;
-    padding: 5px;
+    padding: 8px;
     outline: none;
   }
 }

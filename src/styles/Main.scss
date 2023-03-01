@@ -35,4 +35,14 @@
         color:#2d3134;
         background: white;
     }
+    @media only screen and (max-width: 500px) {
+        h2{
+        
+            font-size: calc(1.2rem + 1.4vw);
+        }
+        h3{
+            text-transform: uppercase;
+            font-size: calc(0.3rem + 1vw);
+        }
+      }
 }

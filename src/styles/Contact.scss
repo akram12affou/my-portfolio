@@ -7,6 +7,7 @@
   color:white;
   min-height:calc(100vh - 120px);
   button{
+    
     font-size: calc(0.5rem + 0.5vw);
     margin-top:-7vh;
     background: #2d3134;
@@ -87,4 +88,8 @@ textarea{
     max-height: 200px;
     width: 250px;
   }
+}
+.button{
+  display: flex;
+  justify-content: center;
 }

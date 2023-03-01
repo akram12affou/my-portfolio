@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 15px;
     background: #2d3134;
-    height: 80vh;
+    // height: 80vh;
     color:white;
     min-height:calc(100vh - 135px);
     span{
@@ -19,27 +19,63 @@
     }
     .project{
         position: relative;
+        width: 40vw;
+        // min-width: 300px;
+        border: 1px solid black;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     }
     .projects-container{
+        margin-bottom: 20px;
+        width: 85vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: center;
+        gap: 1rem;
         margin-top: 45px;
         overflow: hidden;
         // border: 3px solid black;
-        width: 60vw;
-        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        // width: 200px;
     }
     .project img{
         overflow: hidden;
-        width: 60vw;
-     
-        
+        width: 40vw;
+        // min-width: 300px;
     }
     .show-projects{
         position: absolute;
         top:10px;
-        right: 30vw;
+        left: 12vw;
+        left: calc(40vw / 2 - 150px /2);
+        width: 150px;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
         z-index: 2;
-
+    
+        border: black 1px solid;
+        padding:5px;
+        div{
+            font-weight: 1000;
+        }
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .projects{
+    .project{  
+        width: 75vw;
+       
+    }
+  
+    .project img{
+        width: 75vw;
+    }
+    .show-projects{
+        width: 110px;
+        left: calc(75vw / 2 - 110px /2);
+        
+        
+    }
+}
+  }

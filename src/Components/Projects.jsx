@@ -84,7 +84,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <hr />
+          
           <div className="project">
             <div className="about-the-project">
               <div className="h3">

@@ -1,48 +1,53 @@
 import React, { useState } from "react";
 import "../styles/Contact.scss";
-import Links from  "./Links"
+import Links from "./Links";
+import emailjs from "emailjs-com";
 function Contact() {
-  const [email,setEmail] = useState('')
-  const [message,setMessage] = useState('')
-  const [name , setName] = useState('')
-  const ply = () => {
-    window.Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "akramaffou@gmail.com",
-      Password : "73F2DB1DD41B76CA2928020111A66D086A6D",
-      port: 2525,
-      From : "laticharaf@gmail.com",
-      To : 'affouakram@gmail.com',
-     
-      Subject : "This is the subject",
-      Body : "And this is the body"
-  }).then(
-    message => alert(message)
-  );
-  }
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_fkgyjaw",
+        "template_m3sp5me",
+        e.target,
+        "yykWtfy2yhDG_eimt"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <>
-       <>
-      <div className="contact">
-        <div> <h2>SEND ME AN EMAIL</h2></div>
-<button onClick={ply}></button>
-        <div className="grid-flex">
-          <div className="grid">
-            <div className="inputs">
-              <div>Name <br /><input type="text" /></div>
-            <div>E-mail <br /><input type="email" /></div> 
+      <>
+        <div className="contact">
+          <form onSubmit={sendEmail} className="form">
+            <div className=""><div className="inputs">
+              <label>Name</label>
+              <input type="text" name="from_name" />
+              <label>Email</label>
+              <input type="email" name="to_name" />
             </div>
-            <div className="textarea">
-              <p>Message </p>
-              <textarea></textarea>
-            </div>
-          </div>
+            <div className="message">
+              <label>Message</label>
+              <textarea name="message" />
+              
+            </div></div>
+            <div>    <input type="submit" value="Send" /></div>
+        
+          </form>
         </div>
-        <div><button>Send email</button></div>
-
-      </div>
-    </>
-      <Links/>
+      </>
+      <Links />
     </>
   );
 }

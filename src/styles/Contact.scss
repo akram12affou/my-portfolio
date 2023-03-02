@@ -10,90 +10,27 @@
   background: #2d3134;
   color:white;
   min-height:calc(100vh - 120px);
-  button{
-    
-    font-size: calc(0.5rem + 0.5vw);
-    margin-top:-7vh;
-    background: #2d3134;
-    color: white;
-    border: white 1px solid;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-button:hover{
-    color:#2d3134;
-    background: white;
-}
-}
-.grid{
-    display: grid;
-  grid-template-columns: 47.5vw 47.5vw;
-  gap: 5vw;
-}
-.inputs{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-  height: 19vh;
-  // margin: 0 auto;
-  input{
-    width: 30vw;
-    border-radius: 3px;
-    padding: 8px;
-    outline: none;
-  }
-}
-textarea{
-  background: rgb(232, 232, 232);
-  border: 1px solid rgb(133, 133, 133);
-  border-radius: 3px;
-  padding: 5px;
-  outline: none;
-  height:20vh;
-  width: 35vw;
-  max-width: 45vw;
-  max-height: 350px;
-}
-
-.grid-flex  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height:calc(100vh - 350px);
-}
-@media only screen and (max-width: 768px) {
-  .grid{
-    grid-template-columns:100%;
-    grid-template-rows:25vh 30vh;
-    gap:0;
+  .form{
+    display: flex;
+    gap: 1vw;
   }
   .inputs{
-    
-    margin-top: 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
     input{
-      width: 250px;
+      width: 20vw;
+      padding: 5px;
+      border-radius: 5px;
     }
   }
-  .textarea{
-    margin:0 auto;
-    
-  }
-  .grid-flex{
-    min-height:calc(100vh - 250px);
-  }
-  textarea{
-    margin-bottom: 60px;
-    max-width: 80vw;
-    max-height: 200px;
-    width: 250px;
+  .message{
+    display: flex;
+    flex-direction: column;
+    .textarea{
+
+    }
   }
 }
-.button{
-  display: flex;
-  justify-content: center;
+@media only screen and (max-width: 768px) {
+
 }

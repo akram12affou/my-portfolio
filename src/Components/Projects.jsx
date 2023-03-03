@@ -41,8 +41,7 @@ function Projects() {
               <div className="h3">
                 <h3>Notes app</h3>
                 <div className="tools">
-                  <p>HTML</p>
-                  <p>CSS</p>
+                  <p>HTML & CSS</p>
                   <p>REACTSTRAP</p>
                   <p>RESPONSIVE</p>
                   <p>TYPESCRIPT</p>

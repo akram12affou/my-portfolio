@@ -88,10 +88,11 @@
     display: flex;
     gap: 1vw;
     flex-wrap: wrap;
+   
 
     p {
       padding: 5px;
-      font-size: calc(1vw);
+      font-size: 10px;
       border-radius: 7%;
       background: #2d3134;
       color: #9da4af;
@@ -117,7 +118,7 @@
     }
     .tools {
       p {
-        font-size: calc(1vw + 5px);
+        font-size: 10px;
       }
     }
   }

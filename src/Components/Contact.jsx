@@ -18,7 +18,7 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert('thank you ! 💙');
         },
         (error) => {
           console.log(error.text);
@@ -30,20 +30,24 @@ function Contact() {
     <>
       <>
         <div className="contact">
+          <h2>CONTACT</h2>
+          <span>Have a question or want to work together?</span>
           <form onSubmit={sendEmail} className="form">
-            <div className=""><div className="inputs">
-              <label>Name</label>
-              <input type="text" name="from_name" />
-              <label>Email</label>
-              <input type="email" name="to_name" />
+            <div className="form-inputs">
+              <div className="inputs">
+                <label>Name</label>
+                <input type="text" placeholder="Name" name="from_name" />
+                <label>Email</label>
+                <input placeholder="Enter email" type="email" name="to_name" required/>
+              </div>
+              <div className="message">
+                <label>Message</label>
+                <textarea placeholder="Your Message" name="message" />
+              </div>
             </div>
-            <div className="message">
-              <label>Message</label>
-              <textarea name="message" />
-              
-            </div></div>
-            <div>    <input type="submit" value="Send" /></div>
-        
+            <div className="send-input">
+              <input type="submit" value="Send" />
+            </div>
           </form>
         </div>
       </>

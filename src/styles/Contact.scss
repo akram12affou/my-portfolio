@@ -10,27 +10,70 @@
   background: #2d3134;
   color:white;
   min-height:calc(100vh - 120px);
+  span{
+   margin-bottom: 30px;
+  }
   .form{
     display: flex;
-    gap: 1vw;
+    flex-direction: column;
+    gap: 3vw;
+    .form-inputs{
+      display: flex;
+    }
+    .send-input{
+      display: flex;
+      justify-content: center;
+      input{
+        padding: 5px 15px;
+        background: #2d3134;
+        color:white;
+        border: 1px solid white;
+        transition: all 0.2s ease-in-out;
+      }
+      input:hover{
+        background: white;
+        color:#2d3134;
+      }
+    }
   }
   .inputs{
     display: flex;
     flex-direction: column;
+    margin-right: 1vw;
+
     input{
-      width: 20vw;
+      background: rgb(217, 226, 223);
+      width: 40vw;
       padding: 5px;
       border-radius: 5px;
+      min-width: 180px;
+      max-width: 500px;
     }
   }
+  textarea:focus, input:focus{
+    outline: none;
+    box-shadow: rgba(0, 247, 255, 0.16) 1px 1px 1px, rgba(0, 247, 255, 0.23) 1px 1px 1px;
+}
   .message{
     display: flex;
     flex-direction: column;
-    .textarea{
-
+    textarea{
+      width: 40vw;
+      padding: 5px;
+      min-width: 180px;
+      // background: #000;
+      max-width: 500px;
+      background: rgb(217, 226, 223);
+      height: 20vh;
+      
     }
   }
 }
 @media only screen and (max-width: 768px) {
-
+.form{
+  .form-inputs{
+    display: flex;
+    flex-direction: column;
+  }
+}
 }

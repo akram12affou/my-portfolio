@@ -11,13 +11,12 @@ function NavBar() {
 .hum::after{
   transform: rotate(45deg);
 }
-
-
   `;
-  console.log(isOpen);
   return (
     <div className="navbar">
-      <Link to='/'><img src={logo} alt="my logo" /></Link>
+      <Link to="/">
+        <img src={logo} alt="my logo" />
+      </Link>
       <div onClick={() => setIsOpen(!isOpen)} className="cursor-menu">
         <button className="hum"></button>
       </div>
@@ -27,9 +26,9 @@ function NavBar() {
         style={{ transform: isOpen && "translateX(0)" }}
       >
         <Link to="/about">
-        <a href="">
-          <button>About</button>
-        </a>
+          <a href="">
+            <button>About</button>
+          </a>
         </Link>
         <Link to="/projects">
           <a href="">
@@ -37,7 +36,6 @@ function NavBar() {
           </a>
         </Link>
         <Link to="/contact">
-          
           <a href="">
             <button>Contact</button>
           </a>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Projects.scss";
 import Links from "./Links";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from "@mui/icons-material/Code";
 import chat_app1 from "../images/chat-apk-1.png";
 import chat_app2 from "../images/chat-apk-2.png";
@@ -49,23 +50,21 @@ function Projects() {
                   <p>FIREBASE</p>
                 </div>
               </div>
+              <div>
               <h3 className="about-project">ABOUT</h3>
               This project is a note app built using React JS with a firebase
               backend to store all tasks and save the notes for every account
               with authentification. Also use css and reactstrap.
+              <div className="source-live">
+              <h2><GitHubIcon/></h2>
+              <h2>< RemoveRedEyeIcon/></h2>
             </div>
+            </div>
+            </div>
+            
             <div className="first-side">
               <div className="carousel">
-                <div className="show-projects">
-                  <button>
-                    {" "}
-                    <RemoveRedEyeIcon /> <div>DEMO</div>
-                  </button>
-                  <button>
-                    <CodeIcon />
-                    CODE
-                  </button>
-                </div>
+              
                 <Carousel>
                   <Carousel.Item>
                     <img src={chat_app1} alt="" />

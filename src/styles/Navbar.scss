@@ -57,7 +57,7 @@ body{
     }
     .links-hum{
         z-index: 100;
-        transition: all .3s ease;
+        transition: all .4s ease-in-out;
       transform: translateX(45vw);
        background: #1b1d1e;
        border-radius: 3px;
@@ -76,6 +76,8 @@ body{
         background:#1b1d1e ;
         color:#6f7378;
         border: none;
+        font-size: calc(01rem + 0.3vw);
+    
         transition: all .3s ease;
        }
        button:hover{

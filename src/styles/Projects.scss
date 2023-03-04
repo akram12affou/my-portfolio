@@ -63,21 +63,21 @@
     position: absolute;
     top: 10px;
     transform: translateY(-50px);
-    
+
     width: calc(100px + 10vw);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     z-index: 2;
     transition: all 0.2s ease;
- 
+
     padding: 5px;
     button {
       font-weight: 1000;
       width: calc(100px + 10vw);
       display: flex;
       font-size: calc(1vw + 5px);
-      
+
       align-items: center;
       justify-content: center;
       padding: 2px;
@@ -85,18 +85,15 @@
       margin: 2px;
       transition: all 0.2s ease;
     }
-    button:hover{
-      box-shadow: #2d3134 1px 1px 3px ;
+    button:hover {
+      box-shadow: #2d3134 1px 1px 3px;
     }
   }
   .tools {
     display: flex;
     gap: 1vw;
     flex-wrap: wrap;
- 
-
     p {
-  
       padding: 5px;
       font-size: 10px;
       border-radius: 7%;
@@ -108,12 +105,21 @@
   .h3 {
     font-weight: bolder;
   }
-  .source-live{
+  .source-live {
     display: flex;
-    // font-size: 20px;
-    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
     gap: 5px;
-   cursor: pointer;
+    cursor: pointer;
+
+    a {
+      color: aliceblue;
+      margin-left: 5px;
+      transition: all 0.1s ease;
+    }
+    a:hover {
+      transform: scale(1.1);
+    }
   }
 }
 @media only screen and (max-width: 900px) {

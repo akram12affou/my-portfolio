@@ -4,21 +4,14 @@ import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const css = `
-  .hum::before{
-    transform: rotate(-45deg);
-}
-.hum::after{
-  transform: rotate(45deg);
-}
-  `;
   return (
     <div className="navbar">
       <Link to="/">
         <img src={logo} alt="my logo" />
       </Link>
       <div onClick={() => setIsOpen(!isOpen)} className="cursor-menu">
-        <button className="hum"></button>
+        <button className="hum" style={{ transform: isOpen && "rotate(90deg)" }}>
+        </button>
       </div>
 
       <div
@@ -41,7 +34,7 @@ function NavBar() {
           </a>
         </Link>
       </div>
-      {isOpen && <style>{css}</style>}
+      
     </div>
   );
 }

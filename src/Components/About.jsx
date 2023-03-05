@@ -7,12 +7,12 @@ function About() {
     <div className="about">
       <div>
       <h2>About me</h2>
-      <br />
-      Hi, my name is Akram AFFOU. I'm a Front-end web developer with decent
+      <p>   Hi, my name is Akram AFFOU. I'm a Front-end web developer with decent
       knowledge in other technologies in the field as well. For an in-depth
       insight into my skills and qualifications, I invite you to check out
-      <a href=""> my Resume </a>.
-      <br /><br />
+      <a href=""> my Resume </a>.</p>
+   
+      
       </div>
       <div>
       <p>
@@ -25,7 +25,7 @@ function About() {
       departed on this journey .
       </p>
       </div>
-    <br />
+   
       <div>
       <p>
        I used a wide collection of resources in my

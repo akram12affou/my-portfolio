@@ -24,7 +24,8 @@
     flex-direction: row;
   }
   .carousel {
-    width: 50vw;
+    border-radius: 1%;
+    width: 62vw;
     max-width: 600px;
     overflow: hidden;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
@@ -41,7 +42,7 @@
   }
   .project img {
     overflow: hidden;
-    width: 50vw;
+    width: 62vw;
     max-width: 600px;
   }
   .about-project {
@@ -91,7 +92,9 @@
   }
   .tools {
     display: flex;
-    gap: 1vw;
+    gap:  5px;
+    height: min-content;
+    // align-content:space-around;
     flex-wrap: wrap;
     p {
       padding: 5px;
@@ -115,10 +118,11 @@
     a {
       color: aliceblue;
       margin-left: 5px;
-      transition: all 0.1s ease;
+      transition: all 0.2s ease;
     }
     a:hover {
-      transform: scale(1.1);
+      color: rgb(217, 237, 255);
+      transform: scale(1.2);
     }
   }
 }
@@ -131,9 +135,6 @@
     .first-side {
       margin: 0 auto;
       margin-bottom: 25px;
-    }
-    .show-projects {
-      left: calc(50vw / 2 - calc(100px + 10vw) / 2);
     }
     .tools {
       p {

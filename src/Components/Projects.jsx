@@ -64,7 +64,7 @@ function Projects() {
               <div className="carousel">
                 <Carousel>
                   <Carousel.Item>
-                    <img src={WATCH_app3} alt="" />
+                    <img src={WATCH_app1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img src={WATCH_app2} alt="" />
@@ -81,7 +81,10 @@ function Projects() {
                 <a target="_blank" href="https://github.com/akram12affou/WA7CH">
                   <GitHubIcon />
                 </a>
-                <a target="_blank" href="https://keen-griffin-c64ae1.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://keen-griffin-c64ae1.netlify.app/"
+                >
                   <RemoveRedEyeIcon />
                 </a>
               </div>
@@ -136,13 +139,18 @@ function Projects() {
                     <img src={crypto_app5} alt="" />
                   </Carousel.Item>
                 </Carousel>
-               
-              </div> 
+              </div>
               <div className="source-live">
-                <a target="_blank" href="https://github.com/akram12affou/crypto-currency">
+                <a
+                  target="_blank"
+                  href="https://github.com/akram12affou/crypto-currency"
+                >
                   <GitHubIcon />
                 </a>
-                <a target="_blank" href="https://sparkling-daifuku-87cf61.netlify.app">
+                <a
+                  target="_blank"
+                  href="https://sparkling-daifuku-87cf61.netlify.app"
+                >
                   <RemoveRedEyeIcon />
                 </a>
               </div>
@@ -165,13 +173,14 @@ function Projects() {
               </div>
               <div>
                 <h3 className="about-project">ABOUT</h3>
-                <p className="description ">    FASTEXT is a chat app project built using the powerful
-                combination of React JS and Firebase . With built-in
-                authentication and session-based room names. This user-friendly
-                app allows you to connect with your friends and loved ones in
-                real-time.</p>
-            
-              
+                <p className="description ">
+                  {" "}
+                  FASTEXT is a chat app project built using the powerful
+                  combination of React JS and Firebase . With built-in
+                  authentication and session-based room names. This
+                  user-friendly app allows you to connect with your friends and
+                  loved ones in real-time.
+                </p>
               </div>
             </div>
             <div className="first-side">
@@ -189,13 +198,16 @@ function Projects() {
                 </Carousel>
               </div>
               <div className="source-live">
-                  <a target="_blank" href="https://github.com/akram12affou/chat">
-                    <GitHubIcon />
-                  </a>
-                  <a target="_blank" href="https://spiffy-blini-9a96d2.netlify.app">
-                    <RemoveRedEyeIcon />
-                  </a>
-                </div>
+                <a target="_blank" href="https://github.com/akram12affou/chat">
+                  <GitHubIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://spiffy-blini-9a96d2.netlify.app"
+                >
+                  <RemoveRedEyeIcon />
+                </a>
+              </div>
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -236,16 +248,21 @@ function Projects() {
                     <img src={movie_app2} alt="" />
                   </Carousel.Item>
                 </Carousel>
-                
               </div>
               <div className="source-live">
-                  <a target="_blank" href="https://github.com/akram12affou/movie-app">
-                    <GitHubIcon />
-                  </a>
-                  <a target="_blank" href="https://stellar-phoenix-81c961.netlify.app">
-                    <RemoveRedEyeIcon />
-                  </a>
-                </div>
+                <a
+                  target="_blank"
+                  href="https://github.com/akram12affou/movie-app"
+                >
+                  <GitHubIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://stellar-phoenix-81c961.netlify.app"
+                >
+                  <RemoveRedEyeIcon />
+                </a>
+              </div>
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -292,16 +309,18 @@ function Projects() {
                     <img src={note_app4} alt="" />
                   </Carousel.Item>
                 </Carousel>
-                
               </div>
               <div className="source-live">
-                  <a target="_blank" href="https://github.com/akram12affou/note-app">
-                    <GitHubIcon />
-                  </a>
-                  <a  target="_blank" href="">
-                    <RemoveRedEyeIcon />
-                  </a>
-                </div>
+                <a
+                  target="_blank"
+                  href="https://github.com/akram12affou/note-app"
+                >
+                  <GitHubIcon />
+                </a>
+                <a target="_blank" href="">
+                  <RemoveRedEyeIcon />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -312,3 +331,4 @@ function Projects() {
 }
 
 export default Projects;
+

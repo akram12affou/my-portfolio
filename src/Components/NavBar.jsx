@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Navbar.scss";
+import CloseIcon from '@mui/icons-material/Close';
 import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 function NavBar() {
@@ -19,7 +20,7 @@ function NavBar() {
         style={{ transform: isOpen && "translateX(0)" }}
       >
        <button className='x-button' onClick={() => setIsOpen(false)}>
-        X
+       <CloseIcon/>
         </button>
         <Link to="/about">
           <a href="">

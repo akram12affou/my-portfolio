@@ -105,14 +105,24 @@
       border: 1px solid black;
     }
   }
-  .h3 {
+  .h3 h3{
     font-weight: bolder;
+    transform: scale(1,0.91);
+  }
+  .hr-bar{
+    // display: none;
+    margin: 10px 0;
+    width: 80vw;
+    height: 3px;
+    border-radius: 15px;
+    background: #6f7378;
   }
   .source-live {
     display: flex;
     margin-top: 10px;
     color: rgb(255, 255, 255);
     gap: 5px;
+    justify-content: flex-end;
     cursor: pointer;
 
     a {
@@ -133,6 +143,7 @@
       align-items: center;
      .description{
         font-size: 0.7rem;
+        width: 70vw;
       }
     }
     .first-side {
@@ -142,18 +153,21 @@
     }
     .carousel {
 
-      width: 72vw;
+      width: 70vw;
     
     }
- 
+    .hr-bar{
+      display: flex;
+    }
     .project img {
       overflow: hidden;
-      width: 72vw;
+      width: 70vw;
       max-width: 600px;
     }
     .tools {
+      
       p {
-        font-size: 6px;
+        font-size: 7px;
       }
     }
     

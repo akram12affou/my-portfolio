@@ -78,10 +78,10 @@ function Projects() {
                 </Carousel>
               </div>
               <div className="source-live">
-                <a href="https://github.com/akram12affou/WA7CH">
+                <a target="_blank" href="https://github.com/akram12affou/WA7CH">
                   <GitHubIcon />
                 </a>
-                <a href="https://keen-griffin-c64ae1.netlify.app/">
+                <a target="_blank" href="https://keen-griffin-c64ae1.netlify.app/">
                   <RemoveRedEyeIcon />
                 </a>
               </div>
@@ -139,10 +139,10 @@ function Projects() {
                
               </div> 
               <div className="source-live">
-                <a href="https://github.com/akram12affou/crypto-currency">
+                <a target="_blank" href="https://github.com/akram12affou/crypto-currency">
                   <GitHubIcon />
                 </a>
-                <a href="https://sparkling-daifuku-87cf61.netlify.app">
+                <a target="_blank" href="https://sparkling-daifuku-87cf61.netlify.app">
                   <RemoveRedEyeIcon />
                 </a>
               </div>
@@ -189,10 +189,10 @@ function Projects() {
                 </Carousel>
               </div>
               <div className="source-live">
-                  <a href="https://github.com/akram12affou/chat">
+                  <a target="_blank" href="https://github.com/akram12affou/chat">
                     <GitHubIcon />
                   </a>
-                  <a href="https://spiffy-blini-9a96d2.netlify.app">
+                  <a target="_blank" href="https://spiffy-blini-9a96d2.netlify.app">
                     <RemoveRedEyeIcon />
                   </a>
                 </div>
@@ -239,10 +239,10 @@ function Projects() {
                 
               </div>
               <div className="source-live">
-                  <a href="https://github.com/akram12affou/movie-app">
+                  <a target="_blank" href="https://github.com/akram12affou/movie-app">
                     <GitHubIcon />
                   </a>
-                  <a href="https://stellar-phoenix-81c961.netlify.app">
+                  <a target="_blank" href="https://stellar-phoenix-81c961.netlify.app">
                     <RemoveRedEyeIcon />
                   </a>
                 </div>
@@ -295,10 +295,10 @@ function Projects() {
                 
               </div>
               <div className="source-live">
-                  <a href="https://github.com/akram12affou/note-app">
+                  <a target="_blank" href="https://github.com/akram12affou/note-app">
                     <GitHubIcon />
                   </a>
-                  <a href="">
+                  <a  target="_blank" href="">
                     <RemoveRedEyeIcon />
                   </a>
                 </div>

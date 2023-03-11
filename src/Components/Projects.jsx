@@ -109,10 +109,11 @@ function Projects() {
               </div>
               <div>
                 <h3 className="about-project">ABOUT</h3>
-                Coin Mentor is built with React.js brings you up-to-date
+                <p className="description ">Coin Mentor is built with React.js brings you up-to-date
                 information on every coin through an API, complete with detailed
                 charts using Chart.js. You can also track your favorite coins
-                through authentication to make informed investment decisions.
+                through authentication to make informed investment decisions.</p>
+                
                 <div className="source-live">
                   <a href="https://github.com/akram12affou/crypto-currency">
                     <GitHubIcon />
@@ -162,11 +163,12 @@ function Projects() {
               </div>
               <div>
                 <h3 className="about-project">ABOUT</h3>
-                FASTEXT is a chat app project built using the powerful
+                <p className="description ">    FASTEXT is a chat app project built using the powerful
                 combination of React JS and Firebase . With built-in
                 authentication and session-based room names. This user-friendly
                 app allows you to connect with your friends and loved ones in
-                real-time.
+                real-time.</p>
+            
                 <div className="source-live">
                   <a href="https://github.com/akram12affou/chat">
                     <GitHubIcon />
@@ -210,12 +212,13 @@ function Projects() {
               </div>
               <div>
                 <h3 className="about-project">ABOUT</h3>
-                MOVIEDB is a movie-lover's tool, built using technologies like
+                <p className="description ">              MOVIEDB is a movie-lover's tool, built using technologies like
                 React JS, Redux, and an external API. With Redux integration,
                 you can easily store and access your watched list, movie details
                 , reviews , and similar movies from anywhere in the app. And
                 with API integration, you'll always have access to the latest
-                information on the movies you love.
+                information on the movies you love.</p>
+  
                 <div className="source-live">
                   <a href="https://github.com/akram12affou/movie-app">
                     <GitHubIcon />
@@ -255,12 +258,12 @@ function Projects() {
               </div>
               <div>
                 <h3 className="about-project">ABOUT</h3>
-                This app provides users with a secure and efficient way to store
+                <p className="description "> This app provides users with a secure and efficient way to store
                 tasks for every account. With its user-friendly interface, users
                 can easily create, mark as complete, and delete tasks. The app
                 also features a dark mode option for better visibility in
                 low-light environments and a big letter mode for users who have
-                difficulty reading small text. Also use css and reactstrap.
+                difficulty reading small text. Also use css and reactstrap.</p>
                 <div className="source-live">
                   <a href="https://github.com/akram12affou/note-app">
                     <GitHubIcon />
@@ -271,7 +274,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-
             <div className="first-side">
               <div className="carousel">
                 <Carousel>
@@ -291,8 +293,6 @@ function Projects() {
               </div>
             </div>
           </div>
-          <br />
-          
         </div>
       </div>
       <Links />

@@ -10,8 +10,8 @@ function Links() {
     <div className="links">
       <a class='linkedin' target="_blank" href="https://www.linkedin.com/in/akram-affou-872604221/">linkedin <LinkedInIcon/></a>
       <a class='github' target="_blank" href="https://github.com/akram12affou">github <GitHubIcon/></a>
-      <a class='email' target='_blank' href='/images/resume.pdf' download >email <EmailIcon/></a>
-      <a class='resume' href="">resume <FilePresentIcon/></a>
+      <a class='email'  >email <EmailIcon/></a>
+      <a class='resume' target='_blank' href='/images/resume.pdf' download>resume <FilePresentIcon/></a>
     </div>
   );
 }

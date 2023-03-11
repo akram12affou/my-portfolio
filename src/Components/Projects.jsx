@@ -265,64 +265,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="hr-bar"></div>
-          <div className="project">
-            <div className="about-the-project">
-              <div className="h3">
-                <h3>Notes app</h3>
-                <div className="tools">
-                  <p>HTML & CSS</p>
-                  <p>REACTSTRAP</p>
-                  <p>RESPONSIVE</p>
-                  <p>TYPESCRIPT</p>
-                  <p>REACT JS</p>
-                  <p>FIREBASE</p>
-                </div>
-              </div>
-              <div>
-                <h3 className="about-project">ABOUT</h3>
-                <p className="description ">
-                  {" "}
-                  This app provides users with a secure and efficient way to
-                  store tasks for every account. With its user-friendly
-                  interface, users can easily create, mark as complete, and
-                  delete tasks. The app also features a dark mode option for
-                  better visibility in low-light environments and a big letter
-                  mode for users who have difficulty reading small text. Also
-                  use css and reactstrap.
-                </p>
-              </div>
-            </div>
-            <div className="first-side">
-              <div className="carousel">
-                <Carousel>
-                  <Carousel.Item>
-                    <img src={note_app1} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img src={note_app2} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img src={note_app3} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img src={note_app4} alt="" />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-              <div className="source-live">
-                <a
-                  target="_blank"
-                  href="https://github.com/akram12affou/note-app"
-                >
-                  <GitHubIcon />
-                </a>
-                <a target="_blank" href="">
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
-            </div>
-          </div>
+          
+         
+          
         </div>
       </div>
       <Links />

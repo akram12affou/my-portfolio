@@ -10,14 +10,17 @@ function NavBar() {
         <img src={logo} alt="my logo" />
       </Link>
       <div onClick={() => setIsOpen(!isOpen)} className="cursor-menu">
-        <button className="hum" style={{ transform: isOpen && "rotate(90deg)" }}>
+        <button className="hum" >
         </button>
       </div>
-
+      
       <div
         className="links-hum"
         style={{ transform: isOpen && "translateX(0)" }}
       >
+       <button className='x-button' onClick={() => setIsOpen(false)}>
+        X
+        </button>
         <Link to="/about">
           <a href="">
             <button>About</button>

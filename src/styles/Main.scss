@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -12,13 +12,14 @@
     background: #2d3134;
     color:white;
     justify-content: center;
-   
+    
     h2{
-        
+        font-weight: bolder;
         font-size: calc(1.5rem + 2.9vw);
     }
     h3{
         text-transform: uppercase;
+        font-weight: bolder;
         font-size: calc(0.35rem + 1.2vw);
     }
     button{
@@ -38,11 +39,11 @@
     @media only screen and (max-width: 500px) {
         h2{
         
-            font-size: calc(1.2rem + 1.4vw);
+            font-size: calc(1.5rem + 1.4vw);
         }
         h3{
             text-transform: uppercase;
-            font-size: calc(0.3rem + 1vw);
+            font-size: calc(0.35rem + 1vw);
         }
       }
 }

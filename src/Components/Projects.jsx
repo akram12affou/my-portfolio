@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../styles/Projects.scss";
 import Links from "./Links";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import CodeIcon from "@mui/icons-material/Code";
 import note_app1 from "../images/chat-apk-1.png";
 import note_app2 from "../images/chat-apk-2.png";
 import note_app3 from "../images/chat-apk-3.png";
@@ -17,6 +16,10 @@ import chat_app2 from "../images/FAST-2.png";
 import chat_app3 from "../images/FAST-3.png";
 import movie_app1 from "../images/movie-app-1.png";
 import movie_app2 from "../images/movie-app-2.png";
+import WATCH_app1 from "../images/WA7CH-1.png";
+import WATCH_app2 from "../images/WA7CH-2.png";
+import WATCH_app3 from "../images/WA7CH-3.png";
+import WATCH_app4 from "../images/WA7CH-4.png";
 import Carousel from "react-bootstrap/Carousel";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -30,7 +33,62 @@ function Projects() {
           Have a look around and make sure to hit me up!
         </span>
         <div className="projects-container">
-          
+        <div className="project">
+            <div className="about-the-project">
+              <div className="h3">
+                <h3>WA7CH</h3>
+                <div className="tools">
+                  <p>HTML & CSS</p>
+                  <p>REACTSTRAP</p>
+                  <p>MATERIAL UI</p>
+                  <p>RESPONSIVE</p>
+                  <p>JAVASCRIPT</p>
+                  <p>REACT JS</p>
+                  <p>REDUX</p>
+                  <p>SASS</p>
+                  <p>API</p>
+                  <p>FIREBASE</p>
+                </div>
+              </div>
+              <div>
+                <h3 className="about-project">ABOUT</h3>
+                <p className="description ">
+                WA7CH is a modern and innovative e-commerce app built using
+                React, Redux, SASS, Firebase, and Material UI. It is a
+                full-featured online shopping platform that offers customers a
+                seamless and convenient way to browse and purchase products.
+                </p>
+                <div className="source-live">
+                  <a href="https://github.com/akram12affou/crypto-currency">
+                    <GitHubIcon />
+                  </a>
+                  <a href="https://keen-griffin-c64ae1.netlify.app/">
+                    <RemoveRedEyeIcon />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="first-side">
+              <div className="carousel">
+                <Carousel>
+                  <Carousel.Item>
+                    <img src={WATCH_app3} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={WATCH_app2} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={WATCH_app3} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={WATCH_app4} alt="" />
+                  </Carousel.Item>
+                  
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        <br />
           <div className="project">
             <div className="about-the-project">
               <div className="h3">
@@ -39,10 +97,12 @@ function Projects() {
                   <p>HTML & CSS</p>
                   <p>REACTSTRAP</p>
                   <p>RESPONSIVE</p>
+                  <p>MATERIAL UI</p>
                   <p>JAVASCRIPT</p>
                   <p>REACT JS</p>
                   <p>REDUX</p>
                   <p>API</p>
+
                   <p>CHART JS</p>
                   <p>FIREBASE</p>
                 </div>
@@ -93,6 +153,8 @@ function Projects() {
                 <div className="tools">
                   <p>HTML & CSS</p>
                   <p>RESPONSIVE</p>
+                  <p>MATERIAL UI</p>
+                  <p>MATERIAL UI</p>
                   <p>JAVASCRIPT</p>
                   <p>REACT JS</p>
                   <p>FIREBASE</p>
@@ -139,6 +201,7 @@ function Projects() {
                 <div className="tools">
                   <p>HTML & CSS</p>
                   <p>RESPONSIVE</p>
+                  <p>MATERIAL UI</p>
                   <p>JAVASCRIPT</p>
                   <p>REACT JS</p>
                   <p>API</p>
@@ -229,6 +292,7 @@ function Projects() {
             </div>
           </div>
           <br />
+          
         </div>
       </div>
       <Links />

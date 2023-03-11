@@ -25,7 +25,7 @@
   }
   .carousel {
     border-radius: 1%;
-    width: 62vw;
+    width: 45vw;
     max-width: 600px;
     overflow: hidden;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
@@ -42,7 +42,7 @@
   }
   .project img {
     overflow: hidden;
-    width: 62vw;
+    width: 45vw;
     max-width: 600px;
   }
   .about-project {
@@ -131,15 +131,32 @@
     .project {
       flex-direction: column;
       align-items: center;
+     .description{
+        font-size: 0.7rem;
+      }
     }
     .first-side {
       margin: 0 auto;
       margin-bottom: 25px;
+      
+    }
+    .carousel {
+
+      width: 72vw;
+    
+    }
+ 
+    .project img {
+      overflow: hidden;
+      width: 72vw;
+      max-width: 600px;
     }
     .tools {
       p {
-        font-size: 10px;
+        font-size: 6px;
       }
     }
+    
   }
+ 
 }

@@ -16,3 +16,8 @@ span{
     font-family: 'Inconsolata', monospace;
     color:#6f7378;
 }
+@media screen and (max-width: 390px) {
+   .credit{
+    display: none;
+   }
+  }

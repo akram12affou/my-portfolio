@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="Footer">
       <div>
-        <span>© 2023 Akram Affou. All rights Reserved</span>
+        <span className="credit">© 2023 Akram Affou. All rights Reserved</span>
       </div>
       <div>
         <span>Email :</span> affouakram@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

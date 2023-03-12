@@ -29,40 +29,40 @@ function Projects() {
       <div className="projects">
         <h2>Portfolio</h2>
         <span>
-          // these are my favorite projects I've worked on for the past year.
-          Have a look around and make sure to hit me up!
+          <center>// these are my favorite projects I've worked on for the past year.
+          Have a look around and make sure to hit me up!</center>
+          
         </span>
         <div className="projects-container">
           <div className="project">
             <div className="about-the-project">
               <div className="h3">
                 <h3>WA7CH</h3>
-                <div className="tools">
-                  <p>HTML & CSS</p>
-                  <p>REACTSTRAP</p>
-                  <p>MATERIAL UI</p>
-                  <p>RESPONSIVE</p>
-                  <p>JAVASCRIPT</p>
-                  <p>REACT JS</p>
-                  <p>REDUX</p>
-                  <p>SASS</p>
-                  <p>API</p>
-                  <p>FIREBASE</p>
-                </div>
+                
               </div>
               <div>
-                <h3 className="about-project">ABOUT</h3>
                 <p className="description ">
                   WA7CH is a modern and innovative e-commerce app built using
                   React, Redux, SASS, Firebase, and Material UI. It is a
                   full-featured online shopping platform that offers customers a
                   seamless and convenient way to browse and purchase products.
+                  <div className="source-live">
+                <a target="_blank" href="https://github.com/akram12affou/WA7CH">
+                  <GitHubIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://keen-griffin-c64ae1.netlify.app/"
+                >
+                  <RemoveRedEyeIcon />
+                </a>
+              </div>
                 </p>
               </div>
             </div>
             <div className="first-side">
               <div className="carousel">
-                <Carousel>
+                <Carousel variant="dark">
                   <Carousel.Item>
                     <img src={WATCH_app1} alt="" />
                   </Carousel.Item>
@@ -77,17 +77,7 @@ function Projects() {
                   </Carousel.Item>
                 </Carousel>
               </div>
-              <div className="source-live">
-                <a target="_blank" href="https://github.com/akram12affou/WA7CH">
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://keen-griffin-c64ae1.netlify.app/"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+             
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -95,34 +85,34 @@ function Projects() {
             <div className="about-the-project">
               <div className="h3">
                 <h3>Coin Mentor</h3>
-                <div className="tools">
-                  <p>HTML & CSS</p>
-                  <p>REACTSTRAP</p>
-                  <p>RESPONSIVE</p>
-                  <p>MATERIAL UI</p>
-                  <p>JAVASCRIPT</p>
-                  <p>REACT JS</p>
-                  <p>REDUX</p>
-                  <p>API</p>
-
-                  <p>CHART JS</p>
-                  <p>FIREBASE</p>
-                </div>
               </div>
               <div>
-                <h3 className="about-project">ABOUT</h3>
                 <p className="description ">
                   Coin Mentor is built with React.js brings you up-to-date
                   information on every coin through an API, complete with
                   detailed charts using Chart.js. You can also track your
                   favorite coins through authentication to make informed
                   investment decisions.
+                  <div className="source-live">
+                <a
+                  target="_blank"
+                  href="https://github.com/akram12affou/crypto-currency"
+                >
+                  <GitHubIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://sparkling-daifuku-87cf61.netlify.app"
+                >
+                  <RemoveRedEyeIcon />
+                </a>
+              </div>
                 </p>
               </div>
             </div>
             <div className="first-side">
               <div className="carousel">
-                <Carousel>
+                <Carousel variant="dark">
                   <Carousel.Item>
                     <img src={crypto_app1} alt="" />
                   </Carousel.Item>
@@ -140,20 +130,7 @@ function Projects() {
                   </Carousel.Item>
                 </Carousel>
               </div>
-              <div className="source-live">
-                <a
-                  target="_blank"
-                  href="https://github.com/akram12affou/crypto-currency"
-                >
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://sparkling-daifuku-87cf61.netlify.app"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+             
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -161,18 +138,8 @@ function Projects() {
             <div className="about-the-project">
               <div className="h3">
                 <h3>FASTEXT</h3>
-                <div className="tools">
-                  <p>HTML & CSS</p>
-                  <p>RESPONSIVE</p>
-                  <p>MATERIAL UI</p>
-                  <p>MATERIAL UI</p>
-                  <p>JAVASCRIPT</p>
-                  <p>REACT JS</p>
-                  <p>FIREBASE</p>
-                </div>
               </div>
               <div>
-                <h3 className="about-project">ABOUT</h3>
                 <p className="description ">
                   {" "}
                   FASTEXT is a chat app project built using the powerful
@@ -180,12 +147,23 @@ function Projects() {
                   authentication and session-based room names. This
                   user-friendly app allows you to connect with your friends and
                   loved ones in real-time.
+                  <div className="source-live">
+                <a target="_blank" href="https://github.com/akram12affou/chat">
+                  <GitHubIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://spiffy-blini-9a96d2.netlify.app"
+                >
+                  <RemoveRedEyeIcon />
+                </a>
+              </div>
                 </p>
               </div>
             </div>
             <div className="first-side">
               <div className="carousel">
-                <Carousel>
+                <Carousel variant="dark">
                   <Carousel.Item>
                     <img src={chat_app3} alt="" />
                   </Carousel.Item>
@@ -197,17 +175,7 @@ function Projects() {
                   </Carousel.Item>
                 </Carousel>
               </div>
-              <div className="source-live">
-                <a target="_blank" href="https://github.com/akram12affou/chat">
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://spiffy-blini-9a96d2.netlify.app"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+             
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -215,18 +183,8 @@ function Projects() {
             <div className="about-the-project">
               <div className="h3">
                 <h3>MOVIEDB</h3>
-                <div className="tools">
-                  <p>HTML & CSS</p>
-                  <p>RESPONSIVE</p>
-                  <p>MATERIAL UI</p>
-                  <p>JAVASCRIPT</p>
-                  <p>REACT JS</p>
-                  <p>API</p>
-                  <p>REDUX</p>
-                </div>
               </div>
               <div>
-                <h3 className="about-project">ABOUT</h3>
                 <p className="description ">
                   {" "}
                   MOVIEDB is a movie-lover's tool, built using technologies like
@@ -235,21 +193,7 @@ function Projects() {
                   details , reviews , and similar movies from anywhere in the
                   app. And with API integration, you'll always have access to
                   the latest information on the movies you love.
-                </p>
-              </div>
-            </div>
-            <div className="first-side">
-              <div className="carousel">
-                <Carousel>
-                  <Carousel.Item>
-                    <img src={movie_app1} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img src={movie_app2} alt="" />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-              <div className="source-live">
+                  <div className="source-live">
                 <a
                   target="_blank"
                   href="https://github.com/akram12affou/movie-app"
@@ -263,6 +207,21 @@ function Projects() {
                   <RemoveRedEyeIcon />
                 </a>
               </div>
+                </p>
+              </div>
+            </div>
+            <div className="first-side">
+              <div className="carousel">
+                <Carousel variant="dark">
+                  <Carousel.Item>
+                    <img src={movie_app1} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={movie_app2} alt="" />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+         
             </div>
           </div>
           

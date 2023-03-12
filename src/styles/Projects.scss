@@ -147,9 +147,11 @@
       }
     }
     .first-side {
-      margin: 0 auto;
-      margin-bottom: 25px;
       
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: center;
+      margin-left: 40px;
     }
     .carousel {
 

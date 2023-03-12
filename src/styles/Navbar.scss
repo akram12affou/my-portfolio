@@ -9,7 +9,7 @@ body{
     background: #2d3134 ;
     display: flex;
     align-items: space-between;
-    justify-content: center;
+  
     height:75px;
     img{
         // margin-top:3vh;
@@ -93,7 +93,7 @@ body{
     }
 }
 .cursor-menu{
-    cursor: pointer;
-    padding: 10px 5px;
+    cursor:pointer;
+margin-top: 3vh;
     
 }

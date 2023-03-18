@@ -21,22 +21,23 @@ import WATCH_app2 from "../images/WA7CH-2.png";
 import WATCH_app3 from "../images/WA7CH-3.png";
 import WATCH_app4 from "../images/WA7CH-4.png";
 import Carousel from "react-bootstrap/Carousel";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Projects() {
-
   return (
-    <div style={{background : 'rgb(42 42 42)'}}>
-      <motion.div className="projects"
-      initial={{y:22 , opacity:0}}
-      animate={{y: 0,opacity:1}}
+    <div style={{ background: "rgb(42 42 42)" }}>
+      <motion.div
+        className="projects"
+        initial={{ y: 22, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
       >
         <h2>Portfolio</h2>
         <span>
-          <center>// these are my favorite projects I've worked on for the past year.
-          Have a look around and make sure to hit me up!</center>
-          
+          <center>
+            // these are my favorite projects I've worked on for the past year.
+            Have a look around and make sure to hit me up!
+          </center>
         </span>
         <div className="projects-container">
           <div className="project">
@@ -47,20 +48,27 @@ function Projects() {
               <div>
                 <p className="description ">
                   WA7CH is a modern and innovative e-commerce app built using
-                  React, Redux, SASS, Firebase, and Material UI. It is a
+                  <span className="tech"> React</span>,{" "}
+                  <span className="tech"> Redux</span>,{" "}
+                  <span className="tech"> SASS</span>,{" "}
+                  <span className="tech"> Firebase</span>, and{" "}
+                  <span className="tech"> Material UI</span>. It is a
                   full-featured online shopping platform that offers customers a
-                  seamless and convenient way to browse and purchase products.
+                  seamless and convenient way to browse and purchase products .
                   <div className="source-live">
-                <a target="_blank" href="https://github.com/akram12affou/WA7CH">
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://keen-griffin-c64ae1.netlify.app/"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+                    <a
+                      target="_blank"
+                      href="https://github.com/akram12affou/WA7CH"
+                    >
+                      <GitHubIcon />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://keen-griffin-c64ae1.netlify.app/"
+                    >
+                      <RemoveRedEyeIcon />
+                    </a>
+                  </div>
                 </p>
               </div>
             </div>
@@ -68,20 +76,19 @@ function Projects() {
               <div className="carousel">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <img className='img' src={WATCH_app1} alt="" />
+                    <img className="img" src={WATCH_app1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={WATCH_app2} alt="" />
+                    <img className="img" src={WATCH_app2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={WATCH_app3} alt="" />
+                    <img className="img" src={WATCH_app3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={WATCH_app4} alt="" />
+                    <img className="img" src={WATCH_app4} alt="" />
                   </Carousel.Item>
                 </Carousel>
               </div>
-             
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -92,25 +99,27 @@ function Projects() {
               </div>
               <div>
                 <p className="description ">
-                  Coin Mentor is built with React.js brings you up-to-date
-                  information on every coin through an API, complete with
-                  detailed charts using Chart.js. You can also track your
-                  favorite coins through authentication to make informed
-                  investment decisions.
+                  Coin Mentor is built with <span className="tech"> React</span>{" "}
+                  brings you up-to-date information on every coin through an{" "}
+                  <span className="tech">API</span>, complete with detailed
+                  charts using <span className="tech">Chart.js</span>. You can
+                  also track your favorite coins through authentication to make
+                  informed investment decisions with{" "}
+                  <span className="tech">Firebase</span>.
                   <div className="source-live">
-                <a
-                  target="_blank"
-                  href="https://github.com/akram12affou/crypto-currency"
-                >
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://sparkling-daifuku-87cf61.netlify.app"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+                    <a
+                      target="_blank"
+                      href="https://github.com/akram12affou/crypto-currency"
+                    >
+                      <GitHubIcon />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://sparkling-daifuku-87cf61.netlify.app"
+                    >
+                      <RemoveRedEyeIcon />
+                    </a>
+                  </div>
                 </p>
               </div>
             </div>
@@ -118,23 +127,22 @@ function Projects() {
               <div className="carousel">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <img className='img' src={crypto_app1} alt="" />
+                    <img className="img" src={crypto_app1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={crypto_app2} alt="" />
+                    <img className="img" src={crypto_app2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={crypto_app3} alt="" />
+                    <img className="img" src={crypto_app3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={crypto_app4} alt="" />
+                    <img className="img" src={crypto_app4} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={crypto_app5} alt="" />
+                    <img className="img" src={crypto_app5} alt="" />
                   </Carousel.Item>
                 </Carousel>
               </div>
-             
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -147,21 +155,25 @@ function Projects() {
                 <p className="description ">
                   {" "}
                   FASTEXT is a chat app project built using the powerful
-                  combination of React JS and Firebase . With built-in
+                  combination of <span className="tech">React JS</span> and{" "}
+                  <span className="tech">Firebase</span>. With built-in
                   authentication and session-based room names. This
                   user-friendly app allows you to connect with your friends and
-                  loved ones in real-time.
+                  loved ones in real-time .
                   <div className="source-live">
-                <a target="_blank" href="https://github.com/akram12affou/chat">
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://spiffy-blini-9a96d2.netlify.app"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+                    <a
+                      target="_blank"
+                      href="https://github.com/akram12affou/chat"
+                    >
+                      <GitHubIcon />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://spiffy-blini-9a96d2.netlify.app"
+                    >
+                      <RemoveRedEyeIcon />
+                    </a>
+                  </div>
                 </p>
               </div>
             </div>
@@ -169,17 +181,16 @@ function Projects() {
               <div className="carousel">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <img className='img' src={chat_app3} alt="" />
+                    <img className="img" src={chat_app3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={chat_app2} alt="" />
+                    <img className="img" src={chat_app2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={chat_app1} alt="" />
+                    <img className="img" src={chat_app1} alt="" />
                   </Carousel.Item>
                 </Carousel>
               </div>
-             
             </div>
           </div>
           <div className="hr-bar"></div>
@@ -191,26 +202,27 @@ function Projects() {
               <div>
                 <p className="description ">
                   {" "}
-                  CINEMAGIC is a movie-lover's tool, built using technologies like
-                  React JS, Redux, and an external API. With Redux integration,
-                  you can easily store and access your watched list, movie
-                  details , reviews , and similar movies from anywhere in the
-                  app. And with API integration, you'll always have access to
-                  the latest information on the movies you love.
+                  Cinemagic is a sleek and efficient movie app that has been
+                  expertly crafted using <span className="tech">React</span> , <span className="tech">Redux</span>, <span className="tech">Sass</span> , and <span className="tech">Material UI</span>.
+                  With a powerful <span className="tech">API</span> at its core, Cinemagic is capable of
+                  bringing you the latest information on top-rated, popular, and
+                  upcoming movies, all at the touch of a button. Whether you
+                  want to explore movie details and actor information or simply
+                  keep track of your own watch list .
                   <div className="source-live">
-                <a
-                  target="_blank"
-                  href="https://github.com/akram12affou/movie-app-tmdb"
-                >
-                  <GitHubIcon />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://heartfelt-axolotl-ae909f.netlify.app/"
-                >
-                  <RemoveRedEyeIcon />
-                </a>
-              </div>
+                    <a
+                      target="_blank"
+                      href="https://github.com/akram12affou/movie-app-tmdb"
+                    >
+                      <GitHubIcon />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://heartfelt-axolotl-ae909f.netlify.app/"
+                    >
+                      <RemoveRedEyeIcon />
+                    </a>
+                  </div>
                 </p>
               </div>
             </div>
@@ -218,28 +230,24 @@ function Projects() {
               <div className="carousel">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <img className='img' src={cinemagic_1} alt="" />
+                    <img className="img" src={cinemagic_1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={cinemagic_2} alt="" />
+                    <img className="img" src={cinemagic_2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={cinemagic_3} alt="" />
+                    <img className="img" src={cinemagic_3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={cinemagic_4} alt="" />
+                    <img className="img" src={cinemagic_4} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='img' src={cinemagic_5} alt="" />
+                    <img className="img" src={cinemagic_5} alt="" />
                   </Carousel.Item>
                 </Carousel>
               </div>
-         
             </div>
           </div>
-          
-         
-          
         </div>
       </motion.div>
       <Links />
@@ -248,4 +256,3 @@ function Projects() {
 }
 
 export default Projects;
-

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import "../styles/Contact.scss";
 import Links from "./Links";
+import {motion} from 'framer-motion'
 import emailjs from "emailjs-com";
 function Contact() {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [name, setName] = useState("");
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -28,10 +27,13 @@ function Contact() {
   };
   return (
     <>
-      <>
-        <div className="contact">
-          <h2>CONTACT</h2>
-          <span>Have a question or want to work together?</span>
+      <div className="contact">
+        <motion.div
+        initial={{y:22 , opacity:0}}
+        animate={{y: 0,opacity:1}}
+        >
+          <center><h2>CONTACT</h2><span>Have a question or want to work together?</span></center>
+          <br />
           <form onSubmit={sendEmail} className="form">
             <div className="form-inputs">
               <div className="inputs">
@@ -49,8 +51,8 @@ function Contact() {
               <input type="submit" value="Send" />
             </div>
           </form>
-        </div>
-      </>
+        </motion.div>
+      </div>
       <Links />
     </>
   );

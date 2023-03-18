@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
 }
 .navbar{
-    background: #2d3134 ;
+    background:  rgb(42 42 42) ;
     display: flex;
     align-items: space-between;
   
@@ -59,7 +59,7 @@ body{
         z-index: 100;
         transition: all .4s ease-in-out;
       transform: translateX(45vw);
-       background: #1b1d1e;
+       background:  rgb(29, 29, 29);
     
        position: absolute;
        display: flex;
@@ -73,7 +73,7 @@ body{
        right:3px;
        button{
         cursor: pointer;
-        background:#1b1d1e ;
+        background: rgb(29, 29, 29);
         color:#6f7378;
         border: none;
         font-size: calc(01rem + 0.3vw);
@@ -94,6 +94,6 @@ body{
 }
 .cursor-menu{
     cursor:pointer;
-margin-top: 30px;
+    padding-top: 24px;
     
 }

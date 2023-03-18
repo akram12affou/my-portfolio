@@ -2,11 +2,14 @@ import React from "react";
 import Links from "./Links";
 import '../styles/About.scss'
 import resume from '../images/resume.pdf'
-
+import {motion} from 'framer-motion'
 function About() {
   return (
-    <div className="about-container">
-    <div className="about">
+    <motion.div className="about-container" 
+    >
+    <motion.div className="about"
+    initial={{y:22 , opacity:0}}
+    animate={{y: 0,opacity:1}}>
       <div>
       <h2>About me</h2>
       <p>   Hi, my name is Akram AFFOU. I'm a Front-end web developer with decent
@@ -41,9 +44,9 @@ function About() {
       journey, hope you like it . 💙
       </p>
       </div>
-    </div>
+    </motion.div>
     <Links />
-    </div>
+    </motion.div>
   );
 }
 

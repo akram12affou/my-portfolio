@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 15px;
-  background: #2d3134;
+  background: rgb(42 42 42);
 
   // height: 80vh;
   color: white;
@@ -24,6 +24,7 @@
     flex-direction: row;
   }
   .carousel {
+    background: #b3b3b3;
     border-radius: 1%;
     width: 45vw;
     max-width: 600px;
@@ -43,6 +44,9 @@
   .project img {
     overflow: hidden;
     width: 45vw;
+    background: #b3b3b3;
+    height: calc(45vw / 2);
+    max-height: calc(600px / 2);
     max-width: 600px;
   }
   .about-project {
@@ -110,7 +114,7 @@
     transform: scale(1,0.91);
   }
   .hr-bar{
-    // display: none;
+  
     margin: 10px 0;
     width: 80vw;
     height: 2px;
@@ -155,16 +159,19 @@
       margin-left: 50px;
     }
     .carousel {
-
+     background: #b3b3b3;
       width: 70vw;
     
     }
     .hr-bar{
       display: flex;
     }
-    .project img {
+    .project .img {
       overflow: hidden;
       width: 70vw;
+      
+      height: calc(70vw / 2);
+      max-height: calc(600px / 2);
       max-width: 600px;
     }
     .tools {

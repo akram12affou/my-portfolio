@@ -5,7 +5,7 @@
   padding-top: 15px;
   background: rgb(42 42 42);
 
-  // height: 80vh;
+  // width: 80vh;
   color: white;
   min-height: calc(100vh - 135px);
   span {
@@ -21,7 +21,7 @@
   .project {
     position: relative;
     width: 80vw;
-    gap: 5px;
+    gap: 10px;
     margin-top: 15px;
     display: flex;
     align-items: start;
@@ -30,8 +30,10 @@
   .carousel {
     background: #b3b3b3;
     border-radius: 1%;
-    width: 45vw;
-    max-width: 600px;
+    width: 65vw;
+    height: calc(65vw / 2);
+    max-height: calc((600px + 10vw)/ 2);
+    max-width: calc((600px + 10vw));
     overflow: hidden;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
       rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -42,24 +44,29 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
     overflow: hidden;
     margin: 10px;
   }
   .project img {
     overflow: hidden;
-    width: 45vw;
     background: #b3b3b3;
-    height: calc(45vw / 2);
-    max-height: calc(600px / 2);
-    max-width: 600px;
+    width: 65vw;
+    height: calc(65vw / 2);
+    max-height: calc((600px + 10vw)/ 2);
+    max-width: calc((600px + 10vw));
   }
   .about-project {
     font-size: 15px;
+    
     font-weight: bolder;
     color: #9da4af;
   }
   .about-the-project {
-    width: 60vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .first-side:hover {
@@ -102,7 +109,7 @@
     display: flex;
     gap:  5px;
     height: min-content;
-    // align-content:space-around;
+    
     flex-wrap: wrap;
     p {
       padding: 5px;
@@ -116,29 +123,47 @@
   .h3 h3{
     font-weight: bolder;
     transform: scale(1,0.91);
+    
+  }
+  .h3{
+    display: flex;
+    // align-items: center;
+  
+    margin-left: 3vw
   }
   .hr-bar{
   
     margin: 10px 0;
-    width: 80vw;
-    height: 2px;
+    width: 85vw;
+
+    height:15px;
     border-radius: 15px;
-    background: #6f7378;
+   
+  }
+  .project {
+   
+   .description{
+      font-size: 0.9rem;
+      line-height :calc(1.2rem + 0.4vw);
+      letter-spacing: 0.5px;
+    }
   }
   .source-live {
     display: flex;
-    margin-top: 5px;
+    
     color: rgb(255, 255, 255);
     gap: 5px;
-    font-size: small;
-    justify-content: flex-start;
-    margin-left: 20px;
+  
+    
+    
+    
     cursor: pointer;
 
     a {
       color: aliceblue;
-      margin-left: 5px;
+      margin-left: 15px;
       transition: all 0.2s ease;
+      
     }
     a:hover {
       color: aqua;
@@ -146,14 +171,16 @@
     }
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1280px) {
   .projects {
     .project {
       flex-direction: column;
       align-items: center;
+     
      .description{
-        font-size: 0.7rem;
-        width: 70vw;
+        margin: 0 auto;
+        font-size: calc(0.3rem + 1vw);
+        width:90%;
       }
     }
     .first-side {
@@ -165,7 +192,11 @@
     }
     .carousel {
      background: #b3b3b3;
-      width: 70vw;
+     width: 90vw;
+      
+     height: calc(90vw / 2);
+     max-height: calc((600px + 20vw) / 2);
+     max-width: calc(600px + 20vw);
     
     }
     .hr-bar{
@@ -173,11 +204,11 @@
     }
     .project .img {
       overflow: hidden;
-      width: 70vw;
-      
-      height: calc(70vw / 2);
-      max-height: calc(600px / 2);
-      max-width: 600px;
+      width: 90vw;
+       object-fit: cover;
+      height: calc(90vw / 2);
+      max-height: calc((600px + 20vw) / 2);
+      max-width: calc(600px + 20vw);
     }
     .tools {
       

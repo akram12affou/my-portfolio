@@ -44,19 +44,8 @@ function Projects() {
             <div className="about-the-project">
               <div className="h3">
                 <h3>WA7CH</h3>
-              </div>
-              <div>
-                <p className="description ">
-                  WA7CH is a modern and innovative e-commerce app built using
-                  <span className="tech"> React</span>,{" "}
-                  <span className="tech"> Redux</span>,{" "}
-                  <span className="tech"> SASS</span>,{" "}
-                  <span className="tech"> Firebase</span>, and{" "}
-                  <span className="tech"> Material UI</span>. It is a
-                  full-featured online shopping platform that offers customers a
-                  seamless and convenient way to browse and purchase products .
-                  <div className="source-live">
-                    <a
+                <div className="source-live">
+                       <a
                       target="_blank"
                       href="https://github.com/akram12affou/WA7CH"
                     >
@@ -69,6 +58,19 @@ function Projects() {
                       <RemoveRedEyeIcon />
                     </a>
                   </div>
+           
+              </div>
+              <div>
+                <p className="description ">
+                  WA7CH is a modern and innovative e-commerce app built using
+                  <span className="tech"> React</span>,{" "}
+                  <span className="tech"> Redux</span>,{" "}
+                  <span className="tech"> SASS</span>,{" "}
+                  <span className="tech"> Firebase</span>, and{" "}
+                  <span className="tech"> Material UI</span>. It is a
+                  full-featured online shopping platform that offers customers a
+                  seamless and convenient way to browse and purchase products .
+                  
                 </p>
               </div>
             </div>
@@ -95,18 +97,8 @@ function Projects() {
           <div className="project">
             <div className="about-the-project">
               <div className="h3">
-                <h3>Coin Mentor</h3>
-              </div>
-              <div>
-                <p className="description ">
-                  Coin Mentor is built with <span className="tech"> React</span>{" "}
-                  brings you up-to-date information on every coin through an{" "}
-                  <span className="tech">API</span>, complete with detailed
-                  charts using <span className="tech">Chart.js</span>. You can
-                  also track your favorite coins through authentication to make
-                  informed investment decisions with{" "}
-                  <span className="tech">Firebase</span>.
-                  <div className="source-live">
+                <h3>CoinMentor</h3>
+                <div className="source-live">
                     <a
                       target="_blank"
                       href="https://github.com/akram12affou/crypto-currency"
@@ -120,6 +112,17 @@ function Projects() {
                       <RemoveRedEyeIcon />
                     </a>
                   </div>
+              </div>
+              <div>
+                <p className="description ">
+                  Coin Mentor is built with <span className="tech"> React</span>{" "}
+                  brings you up-to-date information on every coin through an{" "}
+                  <span className="tech">API</span>, complete with detailed
+                  charts using <span className="tech">Chart.js</span>. You can
+                  also track your favorite coins through authentication to make
+                  informed investment decisions with{" "}
+                  <span className="tech">Firebase</span>.
+                 
                 </p>
               </div>
             </div>
@@ -150,17 +153,7 @@ function Projects() {
             <div className="about-the-project">
               <div className="h3">
                 <h3>FASTEXT</h3>
-              </div>
-              <div>
-                <p className="description ">
-                  {" "}
-                  FASTEXT is a chat app project built using the powerful
-                  combination of <span className="tech">React JS</span> and{" "}
-                  <span className="tech">Firebase</span>. With built-in
-                  authentication and session-based room names. This
-                  user-friendly app allows you to connect with your friends and
-                  loved ones in real-time .
-                  <div className="source-live">
+                <div className="source-live">
                     <a
                       target="_blank"
                       href="https://github.com/akram12affou/chat"
@@ -174,6 +167,17 @@ function Projects() {
                       <RemoveRedEyeIcon />
                     </a>
                   </div>
+              </div>
+              <div>
+                <p className="description ">
+                  {" "}
+                  FASTEXT is a chat app project built using the powerful
+                  combination of <span className="tech">React JS</span> and{" "}
+                  <span className="tech">Firebase</span>. With built-in
+                  authentication and session-based room names. This
+                  user-friendly app allows you to connect with your friends and
+                  loved ones in real-time .
+                  
                 </p>
               </div>
             </div>
@@ -197,19 +201,8 @@ function Projects() {
           <div className="project">
             <div className="about-the-project">
               <div className="h3">
-                <h3>CINEMAGIC</h3>
-              </div>
-              <div>
-                <p className="description ">
-                  {" "}
-                  Cinemagic is a sleek and efficient movie app that has been
-                  expertly crafted using <span className="tech">React</span> , <span className="tech">Redux</span>, <span className="tech">Sass</span> , and <span className="tech">Material UI</span>.
-                  With a powerful <span className="tech">API</span> at its core, Cinemagic is capable of
-                  bringing you the latest information on top-rated, popular, and
-                  upcoming movies, all at the touch of a button. Whether you
-                  want to explore movie details and actor information or simply
-                  keep track of your own watch list .
-                  <div className="source-live">
+                <h3>CINEMAGIC </h3>
+                <div className="source-live">
                     <a
                       target="_blank"
                       href="https://github.com/akram12affou/movie-app-tmdb"
@@ -223,12 +216,24 @@ function Projects() {
                       <RemoveRedEyeIcon />
                     </a>
                   </div>
+              </div>
+              <div>
+                <p className="description ">
+                  {" "}
+                  Cinemagic is a sleek and efficient movie app that has been
+                  expertly crafted using <span className="tech">React</span> , <span className="tech">Redux</span>, <span className="tech">Sass</span> , and <span className="tech">Material UI</span>.
+                  With a powerful <span className="tech">API</span> at its core, Cinemagic is capable of
+                  bringing you the latest information on top-rated, popular, and
+                  upcoming movies, all at the touch of a button. Whether you
+                  want to explore movie details and actor information or simply
+                  keep track of your own watch list .
+                 
                 </p>
               </div>
             </div>
             <div className="first-side">
               <div className="carousel">
-                <Carousel variant="dark">
+                <Carousel>
                   <Carousel.Item>
                     <img className="img" src={cinemagic_1} alt="" />
                   </Carousel.Item>

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
+    <div className="nav-container">
     <div className="navbar">
       <Link to="/">
         <img src={logo} alt="my logo" />
@@ -38,7 +39,7 @@ function NavBar() {
           </a>
         </Link>
       </div>
-      
+      </div>
     </div>
   );
 }

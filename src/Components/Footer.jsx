@@ -7,7 +7,7 @@ function Footer() {
         <span className="credit">© 2023 Akram Affou. All rights Reserved</span>
       </div>
       <div>
-        <span>Email :</span> affouakram@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>Email :</span> akramaffou@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span>Tel :</span> +212682773074
       </div>
     </div>

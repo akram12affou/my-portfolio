@@ -3,11 +3,11 @@ import { img } from "react-lazy-load-image-component";
 import "../styles/Projects.scss";
 import Links from "./Links";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import crypto_app1 from "../images/crypto-currency-1.png";
-import crypto_app2 from "../images/crypto-currency-2.png";
-import crypto_app3 from "../images/crypto-currency-3.png";
-import crypto_app4 from "../images/crypto-currency-4.png";
-import crypto_app5 from "../images/crypto-currency-5.png";
+import crypto_app1 from "../images/APEX-1.png";
+import crypto_app2 from "../images/APEX-2.png";
+import crypto_app3 from "../images/APEX-3.png";
+import crypto_app4 from "../images/APEX-4.png";
+
 import chat_app1 from "../images/FAST-1.png";
 import chat_app2 from "../images/FAST-2.png";
 import chat_app3 from "../images/FAST-3.png";
@@ -97,17 +97,17 @@ function Projects() {
           <div className="project">
             <div className="about-the-project">
               <div className="h3">
-                <h3>CoinMentor</h3>
+                <h3>APEX</h3>
                 <div className="source-live">
                     <a
                       target="_blank"
-                      href="https://github.com/akram12affou/crypto-currency"
+                      href="https://github.com/akram12affou/coingecko-app.git"
                     >
                       <GitHubIcon />
                     </a>
                     <a
                       target="_blank"
-                      href="https://sparkling-daifuku-87cf61.netlify.app"
+                      href="https://deft-gumption-340eb5.netlify.app/"
                     >
                       <RemoveRedEyeIcon />
                     </a>
@@ -115,7 +115,7 @@ function Projects() {
               </div>
               <div>
                 <p className="description ">
-                  Coin Mentor is built with <span className="tech"> React</span>{" "}
+                  APEX is built with <span className="tech"> React.tsx, Redux, Sass, Material Ui</span>{" "}
                   brings you up-to-date information on every coin through an{" "}
                   <span className="tech">API</span>, complete with detailed
                   charts using <span className="tech">Chart.js</span>. You can
@@ -128,7 +128,7 @@ function Projects() {
             </div>
             <div className="first-side">
               <div className="carousel">
-                <Carousel variant="dark">
+                <Carousel>
                   <Carousel.Item>
                     <img className="img" src={crypto_app1} alt="" />
                   </Carousel.Item>
@@ -141,9 +141,7 @@ function Projects() {
                   <Carousel.Item>
                     <img className="img" src={crypto_app4} alt="" />
                   </Carousel.Item>
-                  <Carousel.Item>
-                    <img className="img" src={crypto_app5} alt="" />
-                  </Carousel.Item>
+            
                 </Carousel>
               </div>
             </div>

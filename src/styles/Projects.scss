@@ -181,7 +181,7 @@
     }
   }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1060px) {
   .projects {
     .project {
       flex-direction: column;
@@ -189,7 +189,7 @@
       
      .description{
       
-        font-size: calc(0.3rem + 1vw);
+        font-size: calc(0.4rem + 1vw);
         width:100%;
       }
     }

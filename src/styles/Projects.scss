@@ -10,6 +10,7 @@
   min-height: calc(100vh - 135px);
   span {
     color: #6f7378;
+    width: 80vw;
   }
   .tech{
  color: aqua;
@@ -28,19 +29,20 @@
     flex-direction: row;
   }
   .carousel {
+   
     background: #b3b3b3;
-    border-radius: 1%;
-    width: 65vw;
-    height: calc(65vw / 2);
-    max-height: calc((600px + 10vw)/ 2);
-    max-width: calc((600px + 10vw));
+    
+    width: 55vw;
+    height: calc(55vw / 2);
+    max-height: calc((500px + 10vw)/ 2);
+    max-width: calc((500px + 10vw));
     overflow: hidden;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
       rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
   .projects-container {
     margin-bottom: 20px;
-    width: 85vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,13 +50,18 @@
     overflow: hidden;
     margin: 10px;
   }
+  .carousel .slide{
+    width: 100%;
+   
+  }
   .project img {
+    
     overflow: hidden;
     background: #b3b3b3;
-    width: 65vw;
-    height: calc(65vw / 2);
-    max-height: calc((600px + 10vw)/ 2);
-    max-width: calc((600px + 10vw));
+    width: 55vw;
+    height: calc(55vw / 2);
+    max-height: calc((500px + 10vw)/ 2);
+    max-width: calc((500px + 10vw));
   }
   .about-project {
     font-size: 15px;
@@ -68,8 +75,11 @@
     flex-direction: column;
     // justify-content:center;
   }
-
+.first-side{
+  box-shadow: 0 0 4px #646464;
+}
   .first-side:hover {
+    
     .show-projects {
       top: 10px;
       transform: translateY(0px);
@@ -132,7 +142,7 @@
   .hr-bar{
   
     // margin: 10px 0;
-    width: 85vw;
+    width: 80vw;
 
     height:15px;
     border-radius: 15px;
@@ -141,6 +151,7 @@
   .project {
    
    .description{
+     width: 95%;
       font-size: 0.9rem;
       line-height :calc(1.2rem + 0.4vw);
       letter-spacing: 0.5px;

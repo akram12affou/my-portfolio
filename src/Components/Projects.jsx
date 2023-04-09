@@ -40,61 +40,7 @@ function Projects() {
           </center>
         </span>
         <div className="projects-container">
-          <div className="project">
-            <div className="about-the-project">
-              <div className="h3">
-                <h3>WA7CH</h3>
-                <div className="source-live">
-                       <a
-                      target="_blank"
-                      href="https://github.com/akram12affou/WA7CH"
-                    >
-                      <GitHubIcon />
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://keen-griffin-c64ae1.netlify.app/"
-                    >
-                      <RemoveRedEyeIcon />
-                    </a>
-                  </div>
-           
-              </div>
-              <div>
-                <p className="description ">
-                  WA7CH is a modern and innovative e-commerce app built using
-                  <span className="tech"> React</span>,{" "}
-                  <span className="tech"> Redux</span>,{" "}
-                  <span className="tech"> SASS</span>,{" "}
-                  <span className="tech"> Firebase</span>, and{" "}
-                  <span className="tech"> Material UI</span>. It is a
-                  full-featured online shopping platform that offers customers a
-                  seamless and convenient way to browse and purchase products .
-                  
-                </p>
-              </div>
-            </div>
-            <div className="first-side">
-              <div className="carousel">
-                <Carousel variant="dark">
-                  <Carousel.Item>
-                    <img className="img" src={WATCH_app1} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img className="img" src={WATCH_app2} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img className="img" src={WATCH_app3} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img className="img" src={WATCH_app4} alt="" />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
-          </div>
-          <div className="hr-bar"></div>
-          <div className="project">
+        <div className="project">
             <div className="about-the-project">
               <div className="h3">
                 <h3>APEX</h3>
@@ -150,31 +96,33 @@ function Projects() {
           <div className="project">
             <div className="about-the-project">
               <div className="h3">
-                <h3>FASTEXT</h3>
+                <h3>WA7CH</h3>
                 <div className="source-live">
-                    <a
+                       <a
                       target="_blank"
-                      href="https://github.com/akram12affou/chat"
+                      href="https://github.com/akram12affou/WA7CH"
                     >
                       <GitHubIcon />
                     </a>
                     <a
                       target="_blank"
-                      href="https://spiffy-blini-9a96d2.netlify.app"
+                      href="https://keen-griffin-c64ae1.netlify.app/"
                     >
                       <RemoveRedEyeIcon />
                     </a>
                   </div>
+           
               </div>
               <div>
                 <p className="description ">
-                  {" "}
-                  FASTEXT is a chat app project built using the powerful
-                  combination of <span className="tech">React JS</span> and{" "}
-                  <span className="tech">Firebase</span>. With built-in
-                  authentication and session-based room names. This
-                  user-friendly app allows you to connect with your friends and
-                  loved ones in real-time .
+                  WA7CH is a modern and innovative e-commerce app built using
+                  <span className="tech"> React</span>,{" "}
+                  <span className="tech"> Redux</span>,{" "}
+                  <span className="tech"> SASS</span>,{" "}
+                  <span className="tech"> Firebase</span>, and{" "}
+                  <span className="tech"> Material UI</span>. It is a
+                  full-featured online shopping platform that offers customers a
+                  seamless and convenient way to browse and purchase products .
                   
                 </p>
               </div>
@@ -183,13 +131,16 @@ function Projects() {
               <div className="carousel">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <img className="img" src={chat_app3} alt="" />
+                    <img className="img" src={WATCH_app1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className="img" src={chat_app2} alt="" />
+                    <img className="img" src={WATCH_app2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className="img" src={chat_app1} alt="" />
+                    <img className="img" src={WATCH_app3} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img className="img" src={WATCH_app4} alt="" />
                   </Carousel.Item>
                 </Carousel>
               </div>
@@ -251,6 +202,57 @@ function Projects() {
               </div>
             </div>
           </div>
+          <div className="hr-bar"></div>
+          <div className="project">
+            <div className="about-the-project">
+              <div className="h3">
+                <h3>FASTEXT</h3>
+                <div className="source-live">
+                    <a
+                      target="_blank"
+                      href="https://github.com/akram12affou/chat"
+                    >
+                      <GitHubIcon />
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://spiffy-blini-9a96d2.netlify.app"
+                    >
+                      <RemoveRedEyeIcon />
+                    </a>
+                  </div>
+              </div>
+              <div>
+                <p className="description ">
+                  {" "}
+                  FASTEXT is a chat app project built using the powerful
+                  combination of <span className="tech">React JS</span> and{" "}
+                  <span className="tech">Firebase</span>. With built-in
+                  authentication and session-based room names. This
+                  user-friendly app allows you to connect with your friends and
+                  loved ones in real-time .
+                  
+                </p>
+              </div>
+            </div>
+            <div className="first-side">
+              <div className="carousel">
+                <Carousel variant="dark">
+                  <Carousel.Item>
+                    <img className="img" src={chat_app3} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img className="img" src={chat_app2} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img className="img" src={chat_app1} alt="" />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </div>
+           
+          </div>
+          <div className="hr-bar"></div>
         </div>
       </motion.div>
       <Links />

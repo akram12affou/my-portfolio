@@ -13,10 +13,18 @@ function Links() {
   }
   return (
     <div className="links">
-      <a class='linkedin' target="_blank" href="https://www.linkedin.com/in/akram-affou-872604221/">linkedin <LinkedInIcon/></a>
-      <a class='github' target="_blank" href="https://github.com/akram12affou">github <GitHubIcon/></a>
-       <a class='email'  onClick={toemail}>email <EmailIcon/></a>
-      <a class='resume' target='_blank' href={resume} download>resume <FilePresentIcon/></a>
+      <a class='linkedin' target="_blank" href="https://www.linkedin.com/in/akram-affou-872604221/">linkedin <LinkedInIcon style={{
+        'transform' : 'scale(0.9)'
+      }}/></a>
+      <a class='github' target="_blank" href="https://github.com/akram12affou">github <GitHubIcon style={{
+        'transform' : 'scale(0.9)'
+      }}/></a>
+      <a class='email'  onClick={toemail}>email <EmailIcon style={{
+        'transform' : 'scale(0.9)'
+      }}/></a>
+      <a class='resume' target='_blank' href={resume} download>resume <FilePresentIcon style={{
+        'transform' : 'scale(0.9)'
+      }}/></a>
     </div>
   );
 }

@@ -3,14 +3,37 @@
   flex-direction: column;
   align-items: center;
   padding-top: 15px;
-  background: rgb(42 42 42);
-
+  background:  #242021;
+ 
   // width: 80vh;
   color: white;
   min-height: calc(100vh - 135px);
   span {
     color: #6f7378;
     width: 80vw;
+  }
+  .button-container{
+    display: flex;
+    justify-content: start;
+    width: 80vw;
+  }
+  .button {
+    font-size: calc(0.5rem + 0.6vw);
+    background: #2d3134;
+    color: white;
+    border: white 1px solid;
+    padding: 0.5rem 0.7rem;
+    position: relative;
+    right: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover {
+    box-shadow: #2d3134 1px 1px 3px;
+    
+      color: rgb(42 42 42);
+      background: white;
+  
   }
   .tech{
  color: aqua;
@@ -103,7 +126,6 @@
       width: calc(100px + 10vw);
       display: flex;
       font-size: calc(1vw + 5px);
-
       align-items: center;
       justify-content: center;
       padding: 2px;

@@ -7,7 +7,7 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
- background: rgb(42 42 42);
+ background:  #242021;
   color:white;
   min-height:calc(100vh - 120px);
   span{
@@ -23,7 +23,9 @@
     .send-input{
       display: flex;
       justify-content: center;
+      
       input{
+        font-size: calc(0.5rem + 0.6vw);
         padding: 5px 15px;
         background: #2d3134;
         color:white;

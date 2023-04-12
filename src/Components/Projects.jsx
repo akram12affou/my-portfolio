@@ -7,7 +7,7 @@ import crypto_app1 from "../images/APEX-1.png";
 import crypto_app2 from "../images/APEX-2.png";
 import crypto_app3 from "../images/APEX-3.png";
 import crypto_app4 from "../images/APEX-4.png";
-
+import { useNavigate } from "react-router-dom";
 import chat_app1 from "../images/FAST-1.png";
 import chat_app2 from "../images/FAST-2.png";
 import chat_app3 from "../images/FAST-3.png";
@@ -25,6 +25,7 @@ import { motion } from "framer-motion";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Projects() {
+  const navigate = useNavigate()
   return (
     <div style={{ background: "rgb(42 42 42)" }}>
       <motion.div
@@ -32,6 +33,11 @@ function Projects() {
         initial={{ y: 22, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
+         <br />
+        <div className="button-container">
+                <button className="button" onClick={() => navigate('/')}>Return to Home</button>
+                </div>
+                <br />
         <h2>Portfolio</h2>
         <span>
           <center>
@@ -39,6 +45,7 @@ function Projects() {
             Have a look around and make sure to hit me up!
           </center>
         </span>
+        
         <div className="projects-container">
         <div className="project">
             <div className="about-the-project">

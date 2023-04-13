@@ -98,7 +98,11 @@
     flex-direction: column;
     // justify-content:center;
   }
+  .carousel-control-prev{
+    z-index: 999;
+  }
 .first-side{
+  // z-index: 999;
   box-shadow: 0 0 4px #646464;
 }
   .first-side:hover {

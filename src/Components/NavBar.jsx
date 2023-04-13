@@ -23,6 +23,11 @@ function NavBar() {
        <button className='x-button' onClick={() => setIsOpen(false)}>
        <CloseIcon/>
         </button>
+        <Link to="/">
+          <a href="">
+            <button>Home</button>
+          </a>
+        </Link>
         <Link to="/about">
           <a href="">
             <button>About</button>

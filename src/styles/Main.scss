@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;1000&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -21,21 +21,25 @@
     h2{
         font-weight: bolder;
         font-size: calc(1.5rem + 2.9vw);
+        margin-bottom: 10px;
     }
     h3{
         text-transform: uppercase;
         font-weight: bolder;
         font-size: calc(0.35rem + 1.2vw);
+       
     }
     button{
-        font-size: calc(0.5rem + 0.6vw);
-        margin-top:7vh;
+        font-size: calc(0.45rem + 0.55vw);
+        margin-top:4vh;
         background: #2d3134;
         color: white;
+        font-weight: bolder;
+        letter-spacing: 1px;
         border: white 1px solid;
         padding: 0.5rem 0.7rem;
         cursor: pointer;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease-in-out;
     }
     button:hover{
         color: rgb(42 42 42);
@@ -53,6 +57,30 @@
             text-transform: uppercase;
             font-weight: bolder;
             font-size: calc(0.35rem + 1.2vw);
+        }
+      }
+      .links-dev{
+        display: flex;
+        gap:calc(0.75rem + 2vw);
+         
+        *{
+            font-size: 20px;
+      
+        }
+        div{
+            
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            &:hover{
+                cursor: pointer;
+                scale: 1.07;
+                transition: all 0.2s ease;
+           }
+            span{
+                font-size: calc(0.65rem + 0.35vw);
+            }
+           
         }
       }
 }

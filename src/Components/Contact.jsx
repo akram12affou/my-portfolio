@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Contact.scss";
-import Links from "./Links";
 import {motion} from 'framer-motion'
 import emailjs from "emailjs-com";
 function Contact() {
@@ -53,7 +52,6 @@ function Contact() {
           </form>
         </motion.div>
       </div>
-      <Links />
     </>
   );
 }

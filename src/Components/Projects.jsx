@@ -1,8 +1,8 @@
 import React from "react";
-import { img } from "react-lazy-load-image-component";
+import {LuGithub} from 'react-icons/lu'
+import { FaEye } from "react-icons/fa";
+
 import "../styles/Projects.scss";
-import Links from "./Links";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import crypto_app1 from "../images/APEX-1.png";
 import crypto_app2 from "../images/APEX-2.png";
 import crypto_app3 from "../images/APEX-3.png";
@@ -22,7 +22,6 @@ import WATCH_app3 from "../images/WA7CH-3.png";
 import WATCH_app4 from "../images/WA7CH-4.png";
 import Carousel from "react-bootstrap/Carousel";
 import { motion } from "framer-motion";
-import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Projects() {
   const navigate = useNavigate()
@@ -35,14 +34,13 @@ function Projects() {
       >
          <br />
         <div className="button-container">
-                <button className="button" onClick={() => navigate('/')}>Return to Home</button>
                 </div>
                 <br />
         <h2>Portfolio</h2>
         <span>
           <center>
-            // these are my favorite projects I've worked on for the past year.
-            Have a look around and make sure to hit me up!
+            these are my favorite projects I've worked on for the past year.
+            Have a look around and make sure to hit me up! 👋
           </center>
         </span>
         
@@ -56,13 +54,13 @@ function Projects() {
                       target="_blank"
                       href="https://github.com/akram12affou/coingecko-app.git"
                     >
-                      <GitHubIcon />
+                      <LuGithub />
                     </a>
                     <a
                       target="_blank"
                       href="https://deft-gumption-340eb5.netlify.app/"
                     >
-                      <RemoveRedEyeIcon />
+                      <FaEye />
                     </a>
                   </div>
               </div>
@@ -109,13 +107,13 @@ function Projects() {
                       target="_blank"
                       href="https://github.com/akram12affou/WA7CH"
                     >
-                      <GitHubIcon />
+                      <LuGithub />
                     </a>
                     <a
                       target="_blank"
                       href="https://keen-griffin-c64ae1.netlify.app/"
                     >
-                      <RemoveRedEyeIcon />
+                      <FaEye />
                     </a>
                   </div>
            
@@ -163,13 +161,13 @@ function Projects() {
                       target="_blank"
                       href="https://github.com/akram12affou/movie-app-tmdb"
                     >
-                      <GitHubIcon />
+                      <LuGithub />
                     </a>
                     <a
                       target="_blank"
                       href="https://heartfelt-axolotl-ae909f.netlify.app/"
                     >
-                      <RemoveRedEyeIcon />
+                      <FaEye />
                     </a>
                   </div>
               </div>
@@ -210,59 +208,9 @@ function Projects() {
             </div>
           </div>
           <div className="hr-bar"></div>
-          <div className="project">
-            <div className="about-the-project">
-              <div className="h3">
-                <h3>FASTEXT</h3>
-                <div className="source-live">
-                    <a
-                      target="_blank"
-                      href="https://github.com/akram12affou/chat"
-                    >
-                      <GitHubIcon />
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://spiffy-blini-9a96d2.netlify.app"
-                    >
-                      <RemoveRedEyeIcon />
-                    </a>
-                  </div>
-              </div>
-              <div>
-                <p className="description ">
-                  {" "}
-                  FASTEXT is a chat app project built using the powerful
-                  combination of <span className="tech">React JS</span> and{" "}
-                  <span className="tech">Firebase</span>. With built-in
-                  authentication and session-based room names. This
-                  user-friendly app allows you to connect with your friends and
-                  loved ones in real-time .
-                  
-                </p>
-              </div>
-            </div>
-            <div className="first-side">
-              <div className="carousel">
-                <Carousel variant="dark">
-                  <Carousel.Item>
-                    <img className="img" src={chat_app3} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img className="img" src={chat_app2} alt="" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img className="img" src={chat_app1} alt="" />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
-           
-          </div>
-          <div className="hr-bar"></div>
+          
         </div>
       </motion.div>
-      <Links />
     </div>
   );
 }

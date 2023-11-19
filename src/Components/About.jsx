@@ -1,9 +1,8 @@
 import React from "react";
-import Links from "./Links";
 import '../styles/About.scss'
 import resume from '../images/resume.pdf'
 import {motion} from 'framer-motion'
-function About() {
+function About() { 
   return (
     <motion.div className="about-container" 
     >
@@ -45,7 +44,6 @@ function About() {
       </p>
       </div>
     </motion.div>
-    <Links />
     </motion.div>
   );
 }
